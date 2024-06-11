@@ -4,6 +4,7 @@ import {View, Text, TextInput, TouchableOpacity, StyleSheet} from 'react-native'
 import Icon from 'react-native-vector-icons/Ionicons';
 import { ImageBackground } from 'react-native';
 
+// Conectamos API
 export default App = () => {
   const [city, setCity] = useState (null);
   const [weatherData, setWeatherData] = useState(null);
